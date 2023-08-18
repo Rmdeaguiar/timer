@@ -11,8 +11,8 @@ h1 {
 }
 
 .timer {
-  width: 20%;
-  background-color: lightgray;
+  width: 25%;
+  background-color: gray;
   padding: 0px 10px 10px;
   border-radius: 30px;
 }
@@ -22,20 +22,18 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
   border-radius: 10px;
 }
 
 .box-count h2 {
   font-size: 40px;
-  padding: 5px;
-  border-right: 1px solid black;
-  padding-right: 10px;
-}
-
-.box-count h2:last-child {
-  border: none;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  opacity: 0.8;
+  border: 1px solid black;
 }
 
 .btn-control {
@@ -70,5 +68,5 @@ button:hover{
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(188, 188, 2);
 }
